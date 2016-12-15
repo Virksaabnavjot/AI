@@ -1,5 +1,9 @@
+package chessproject;
 import java.util.*;
-
+/**
+ *
+ * @author Navjot
+ */
 public class AIAgent {
     Random rand;
 

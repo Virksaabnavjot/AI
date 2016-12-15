@@ -1,9 +1,9 @@
-
 /*
-	This class can be used as a starting point for creating your Chess game project. The only piece that
-	has been coded is a white pawn...a lot done, more to do!
-*/
-
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package chessproject;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Stack;
@@ -63,9 +63,9 @@ public class ChessProject extends JFrame implements MouseListener, MouseMotionLi
 
             int row = (i / 8) % 2;
             if (row == 0) {
-                square.setBackground(i % 2 == 0 ? Color.orange : Color.gray);
+                square.setBackground(i % 2 == 0 ? Color.blue : Color.white);
             } else {
-                square.setBackground(i % 2 == 0 ? Color.gray : Color.orange);
+                square.setBackground(i % 2 == 0 ? Color.white : Color.blue);
             }
         }
 
@@ -1437,8 +1437,8 @@ public class ChessProject extends JFrame implements MouseListener, MouseMotionLi
                     This is cool and just like before there is now nothing in the way and the Queen should be able to make the
                     movement. We need to check if there is something on the square that we are moving to and if so make sure its
                     an enemy piece and if there is nothing on the square that we are moving to ... make the move.
-                     */
-
+                     */ 
+                    
                     if (inTheWay) {
                         validMove = false;
                     } else if (piecePresent(e.getX(), (e.getY()))) {
