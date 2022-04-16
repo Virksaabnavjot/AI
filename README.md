@@ -68,3 +68,7 @@ The King can move any direction 1 square at a time it can be horizontal, vertica
 Pseudo Code:
 
 <img height="300px" weight="300px" src="https://cloud.githubusercontent.com/assets/5924811/20179875/ffecfba6-a74f-11e6-8f5c-bf913eb1548d.png" />
+
+
+
+Copyrights - Navjot Singh Virk (https://navjot.mrvirk.com & https://mrvirk.com)
